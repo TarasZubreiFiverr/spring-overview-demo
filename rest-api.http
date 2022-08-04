@@ -1,0 +1,22 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Lorem"
+}
+
+###
+GET http://localhost:8080/users
+Accept: application/json
+
+###
+GET http://localhost:8080/users/62ea5778156fda58bda676c6
+Accept: application/json
+
+###
+PUT http://localhost:8080/users/62ea5778156fda58bda676c6
+Content-Type: application/json
+
+{
+  "name": "Ipsum"
+}
