@@ -20,3 +20,12 @@ Content-Type: application/json
 {
   "name": "Ipsum"
 }
+
+###
+GET http://localhost:8080/actuator
+###
+GET http://localhost:8080/actuator/health
+###
+GET http://localhost:8080/actuator/metrics
+###
+GET http://localhost:8080/actuator/metrics/jvm.memory.used
